@@ -1,0 +1,92 @@
+main {
+  padding-top: 2.5rem;
+}
+
+@media (min-width: 40rem) {
+  main {
+    padding-top: 6.5rem;
+  }
+}
+
+.rozvoz {
+  font-size: 1.2rem;
+}
+
+.bolt {
+  color: white;
+  background: #50b948;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 2rem;
+  display: block;
+}
+
+.bolt a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.bolt:hover {
+  background: #1e823f;
+}
+
+
+.rozvoz__image-container {
+  width: 100%;
+  max-width: 40rem;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.rozvoz__image {
+  width: 100%;
+  vertical-align: top;
+}
+
+.rozvoz__info {
+  text-align: center;
+  padding: 0.9rem;
+}
+
+.rozvoz__name {
+  margin: 0.2rem;
+  color: #50b948;
+  font-size: 2rem;
+}
+
+.rozvoz__subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.rozvoz__subtitle a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.rozvoz__subtitle a:hover,
+.rozvoz__subtitle a:active {
+  color: #7a7a7a;
+}
+
+.rozvoz__text {
+  margin: 0.2rem;
+}
+
+@media (min-width: 40rem) {
+  .rozvoz {
+    margin: 3rem auto;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .rozvoz__image-container {
+    width: 66%;
+  }
+
+  .rozvoz__info {
+    width: 30%;
+  }
+}
